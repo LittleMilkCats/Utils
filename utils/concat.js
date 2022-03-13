@@ -1,4 +1,4 @@
-Arrar.prototype.concat = function(...args){
+Array.prototype.concat = function(...args){
     var arr =[...this];
     args.forEach(item => {
         if(Array.isArray(item)){
